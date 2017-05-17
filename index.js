@@ -2,12 +2,7 @@ var express = require('express');
 var app = express();
 var PORT = 3000;
 
-var middleware = {
-    requireAuth: function(req, res, next){
-        console.log("its ok!");
-        next();
-    }
-}
+var middleware = require("./middleware");
 
 app.use(middleware.requireAuth);
 
