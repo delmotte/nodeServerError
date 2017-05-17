@@ -6,9 +6,10 @@
   "author": "f3ltron <fgiraud@student.42.fr>",
   "license": "MIT",
   "dependencies": {
+    "angular": "^1.6.4",
     "express": "^4.15.2"
   },
-  "scripts":{
+  "scripts": {
     "start": "node index.js"
   }
 }

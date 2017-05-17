@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <title>Error app</title>
   </head>
-  <body>
-      bonjour
+  <body ng-app="app">
+      <div ng-controller="ctrl">
+        {{message}}
+      </div>
+      <script src="/angular/angular.js"></script>
+      <script src="./app/index.js"></script>
   </body>
 </html>
